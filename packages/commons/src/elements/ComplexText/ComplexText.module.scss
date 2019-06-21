@@ -1,0 +1,8 @@
+@import '~office-ui-fabric-react/dist/sass/References';
+@import '../../styles/colorsPalette';
+
+  .complexText {
+    &__subText {
+      color: $themePrimary;
+    }
+  }

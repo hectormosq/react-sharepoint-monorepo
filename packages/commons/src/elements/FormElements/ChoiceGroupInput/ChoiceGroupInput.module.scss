@@ -1,0 +1,19 @@
+@import '../../../styles/colorsPalette';
+@import '~office-ui-fabric-react/dist/sass/References';
+@import '~office-ui-fabric-react/dist/sass/Grid';
+@import '~office-ui-fabric-react/dist/sass/Responsive';
+
+.autoEmit {
+  &__container {
+    background-color: $white;
+    padding: 1rem;
+  }
+  &__choiceField { 
+    :global .ms-ChoiceField {
+      :global label {
+        margin-right: 0.1rem;
+      }
+       display: inline-block; 
+      } 
+    }
+}

@@ -1,0 +1,20 @@
+@import './colorsPalette';
+@import './variables';
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $themePrimary;
+    margin: 0;
+}
+
+// FABRIC GLOBAL CSS
+// DROPDOWN
+div[class*="ms-Dropdown-callout"]>div>div {
+    max-height: $maxheightdropdown-callout-rem;
+}
+i[class*="ms-Dropdown-caretDown"] {
+    color: $themePrimary;
+}

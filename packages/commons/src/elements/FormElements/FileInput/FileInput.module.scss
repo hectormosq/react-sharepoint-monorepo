@@ -1,0 +1,46 @@
+@import '../../../styles/colorsPalette';
+@import '../../../styles/variables';
+@import '~office-ui-fabric-react/dist/sass/References';
+@import '~office-ui-fabric-react/dist/sass/Grid';
+@import '~office-ui-fabric-react/dist/sass/Responsive';
+@import '~office-ui-fabric-react/dist/sass/semanticSlots';
+:global {
+  .ms-IconFile {
+    color: $themePrimary;
+  }
+}
+
+.fileInput__fieldGroup {
+    border: $general-border-px solid $neutralTertiary;
+    background: $white;
+    height: 32px;
+    position: relative;
+    &:hover {
+        border-color: $neutralPrimary;
+    }
+}
+
+.fileInput__input {
+    display: none;
+    &_placeholder {
+        &Text {
+            display: block;
+            width: 80%;
+            height: 100%;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            padding: 0.4rem;
+            color: $neutralPrimary;
+        }
+        &Icon {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 20%;
+            text-align: right;
+            padding: .5rem;
+            color: $neutralPrimary;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+  "name": "react-sharepoint-monorepo",
+  "scripts": {
+    "postinstall": "npm run bootstrap",
+    "bootstrap": "lerna bootstrap"
+  },
+  "dependencies": {
+    "@storybook/cli": "^5.0.10",
+    "@uirouter/react": "^0.8.7",
+    "@uirouter/visualizer": "^6.0.2",
+    "axios": "^0.18.0",
+    "formik": "1.4.2",
+    "i18next": "^15.0.2",
+    "i18next-browser-languagedetector": "^3.0.0",
+    "lodash": "^4.17.11",
+    "office-ui-fabric-react": "5.131.0",
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-ga": "^2.5.7",
+    "react-i18next": "^9.0.10",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-saga": "^0.16.2",
+    "tslib": "^1.7.1",
+    "yup": "0.26.6"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.119",
+    "@types/node": "^10.12.18",
+    "@types/react": "16.0.7",
+    "@types/react-dom": "16.0.11",
+    "@types/react-redux": "^6.0.9",
+    "@types/redux-actions": "^2.3.1",
+    "@types/yup": "^0.26.3",
+    "lerna": "^3.4.3",
+    "redux-devtools-extension": "^2.13.5",
+    "rimraf": "2.6.2",
+    "tslint": "5.7.0",
+    "tslint-config-prettier": "1.10.0",
+    "tslint-react": "^3.2.0",
+    "typescript": "3.2.1"
+  }
+}

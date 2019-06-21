@@ -1,0 +1,22 @@
+@import '../../../styles/colorsPalette';
+@import '../../../styles/customStyles';
+.msDatePicker {
+    &>div>div>div>div>div {
+      border: $general-border-px solid $themeDark;
+    }
+}
+.msComboBox {
+    &>div>div {
+      border: $general-border-px solid $themeDark;
+    }
+}
+.msDropDown {
+    &>div>div>span:first-child {
+      border: $general-border-px solid $themeDark;
+    }
+}
+.msTextField {
+    &>div>div>div {
+      border: $general-border-px solid $themeDark;
+    }
+}

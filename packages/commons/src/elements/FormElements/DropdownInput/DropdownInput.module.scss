@@ -1,0 +1,9 @@
+@import '../../../styles/colorsPalette';
+@import '../../../styles/customStyles';
+
+.dropDownInputContainer {
+    :global .ms-Dropdown-caretDown {
+      color: $themePrimary;
+    }
+}
+

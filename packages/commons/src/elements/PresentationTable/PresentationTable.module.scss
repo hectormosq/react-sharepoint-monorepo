@@ -1,0 +1,14 @@
+@import '~office-ui-fabric-react/dist/sass/References';
+@import '~office-ui-fabric-react/dist/sass/Grid';
+@import '~office-ui-fabric-react/dist/sass/Responsive';
+
+.presentationTable {
+  flex: 1;
+  padding: 0.4rem;
+  font-family: $ms-font-family-fallbacks;
+
+  &__cell {
+    display: flex;
+    justify-content: space-between;
+  }
+}

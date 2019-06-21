@@ -1,0 +1,50 @@
+@import './colorsPalette';
+@import './variables';
+.noPadding {
+    padding: 0;
+}
+
+.generalContainerPadding {
+    padding: $padding-container-rem;
+}
+
+.generalSubContainerPadding {
+    padding: $padding-table-container-rem;
+}
+
+.generalFieldPadding {
+  padding: $padding-form-field-rem;
+}
+
+.paddingRight_xs {
+    padding-right: 0.5 rem;
+}
+
+.noMargin {
+    margin: 0;
+}
+
+.borderBottom_grayalt_xs {
+    border-bottom: $xs-measure-rem solid $neutralQuaternaryAlt;
+}
+
+.generalFormBorderBottom {
+    border-bottom: $general-border-px solid $neutralQuaternaryAlt;
+}
+
+.buttonsGroup {
+    &_rght {
+      text-align: right;
+    }
+    &_lft {
+      text-align: left;
+    }
+    padding: $padding-buttons-group-rem;
+    &>div {
+        display: inline-block;
+        &:not(:first-child) {
+            padding-left: 0.5rem;
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+@import '../../../styles/colorsPalette';
+@import '../../../styles/customStyles';
+
+.calendarInputContainer {
+    :global .ms-DatePicker-event--without-label {
+      color: $themePrimary;
+    }
+    min-width: 8rem;
+}
+
+.test {
+  background: red;
+}

@@ -1,0 +1,15 @@
+@import '~office-ui-fabric-react/dist/sass/References';
+@import '~office-ui-fabric-react/dist/sass/Grid';
+@import '~office-ui-fabric-react/dist/sass/Responsive';
+@import '../../../styles/colorsPalette';
+@import '../../../styles/customStyles';
+
+.subFrameContainer {
+  font-family: $ms-font-family-fallbacks;
+  background-color: $white;
+  padding: 0 0 1rem 0;
+
+  &__subtitle {
+    font-weight: 300;
+  }
+}

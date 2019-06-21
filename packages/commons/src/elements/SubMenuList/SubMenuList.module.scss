@@ -1,0 +1,39 @@
+@import '~office-ui-fabric-react/dist/sass/References';
+@import '../../styles/colorsPalette';
+
+  .subMenuList {
+    &__container {
+      font-family: $ms-font-family-fallbacks;
+      overflow: auto;
+    }
+
+    &__itemCell {
+      padding: 0.7rem;
+      box-sizing: border-box;
+      border-bottom: 0.08rem dashed $neutralLighter;
+      display: flex;
+      &:hover {
+        cursor: pointer;
+        background: $neutralLight;
+      }
+    }
+
+    &__itemContent {
+      color: $neutralPrimary;
+      overflow: hidden;
+      flex-grow: 1;
+    }
+
+    &__itemName {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &__listIcon {
+      align-self: center;
+      color: $themePrimary;
+      font-size: $ms-font-size-xs;
+      flex-shrink: 0;
+    }
+  }
