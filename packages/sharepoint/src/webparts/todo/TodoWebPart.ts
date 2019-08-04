@@ -8,7 +8,7 @@ import {
 } from '@microsoft/sp-webpart-base';
 
 import * as strings from 'TodoWebPartStrings';
-import {Todo} from 'app';
+import {Todo} from 'commons';
 import { ITodoProps } from './components/ITodoProps';
 
 export interface ITodoWebPartProps {
